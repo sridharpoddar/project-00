@@ -1,1 +1,40 @@
+#hare {
+	float: right;
+	margin: 180px 0 0 0;
+	height: 200px;
+	width: 220px;
+	transform: scale(-1, 1);
+}
 
+#tort {
+	float: left;
+	margin: 180px 0 0 0;	
+	height: 200px;
+	width: 190px; 
+	
+}
+
+.instr {
+	position: absolute;
+	bottom: 0;
+}
+
+.col-md-3 {
+	background-color: white;
+	height: 1000px;
+	border-style: solid;
+	border-color: white;
+	z-index:-1;
+}
+
+#cent-left {
+
+    border-right: solid black 2px;
+
+}
+
+#cent-right {
+
+    border-left: solid black 2px;
+
+}
