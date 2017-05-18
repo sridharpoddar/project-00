@@ -4,6 +4,7 @@
 	height: 200px;
 	width: 220px;
 	transform: scale(-1, 1);
+
 }
 
 #tort {
@@ -12,7 +13,7 @@
 	height: 200px;
 	width: 190px; 
 	
-}
+}x
 
 .instr {
 	position: absolute;
@@ -38,3 +39,22 @@
     border-left: solid black 2px;
 
 }
+
+.countdown:before {
+    content: '321';
+
+    font-family:monospace;
+    display:inline-block;
+    width:1ch;
+    overflow:hidden;
+    position: absolute;
+    margin: 200px -10px 0px 0px;
+    animation:countdowns 3s steps(3) infinite;
+
+}
+
+@keyframes countdowns {
+    0% {text-indent:0}
+    100% {text-indent:-3ch;}
+}
+
