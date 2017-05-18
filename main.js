@@ -9,19 +9,11 @@ $(window).on("keydown", function moveHare(event){
 
 	if (event.keyCode==13){
 	$("#hare").appendTo("#cent-left")}
-	
-	// $("#hare").css({"float": "right",
-	// "margin": "180px 0 0 0",
-	// "height": "200px",
-	// "width": "220px"
-	// "transform": scale(-1, 1);})
-
-
 	}); 
 
 $(window).on("keydown", function moveTort(event){
 
-	if (event.keyCode==20){
+	if (event.keyCode==16){
 	$("#tort").appendTo("#cent-right")}
 	
 	// $("#hare").css({"float": "right",
@@ -29,21 +21,48 @@ $(window).on("keydown", function moveTort(event){
 	// "height": "200px",
 	// "width": "220px"
 	// "transform": scale(-1, 1);})
+	});
+
+// function winner(x){
+// 	if(entMoveHare==true){
+// 		console.log("Hare wins!")
+// 	};
 
 
-	})
-
-
-
-
-
-
-
-
+// };
 
 
 
-});
+		
+
+
+
+
+// {alert("Hare wins!")
+// return 
+// 	} else if(shiftMoveTort===true){
+// 		alert("Tortoise wins!")
+// 		return} 
+// 		else {alert("Victory undecided")}
+
+// 	}
+
+
+
+// }
+
+
+let x = function win() {
+	if(moveHare()){
+	alert("hare wins")
+
+}} 
+
+
+
+})
+
+
 
 
 // .css({
